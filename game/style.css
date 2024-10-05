@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.h1{
+    height: 4rem;
+background-color:#8f949c;
+display: flex;
+align-items: center;
+justify-content: center;
+color:white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* choices */
+.choices{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 5rem;
+gap: 2rem;
+
+
+}
+
+
+.choice:hover{
+   border: 2px solid grey;
+}
+
+.choice{
+    border-radius: 50%;
+    object-fit:contain;
+    padding: 20px;
+    height: auto;
+}
+.choice img{
+    height: 25vh;
+    width: 15vw;
+border-radius: 50%;
+
+}
+
+/* SCORE CARD */
+.score-card{
+    display:flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: larger;
+font-family:cursive;
+}
+
+
+.score p{
+   
+    font-size: 2.5rem;
+}
+
+
+
+.msg-container{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+justify-content: center;
+
+
+}
+
+#msg{
+    display: flex;
+    border-radius: 50rem;
+    padding: 0.2rem;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+color:white ;
+width: 30rem;
+
+}
+
